@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Original package got updated and rewritted in typescript, supporting new versions of keycloak. See and download it at https://github.com/BackendStack21/keycloak-backend
+
 # keycloak-backend
 Keycloak Node.js minimalist connector for backend services integration. It aims to serve as base for high performance authorization middlewares.
 
@@ -81,7 +85,7 @@ let details = await keycloak.users.details(uid);
 ```js
 let details = await keycloak.users.roles(uid, [
     // clients id here for roles retrieval
-  ], 
+  ],
   true // include realm roles ?
 );
 ```
